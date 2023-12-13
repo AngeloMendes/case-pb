@@ -8,6 +8,7 @@ scikit-learn = "*"
 fastapi = "*"
 uvicorn = {version = "*", extras = ["standard"]}
 pytest = "*"
+starlette = "*"
 
 [dev-packages]
 

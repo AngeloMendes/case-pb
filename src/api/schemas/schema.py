@@ -8,8 +8,8 @@ class PredictSchema(BaseModel):
         "json_schema_extra": {
             "examples": [
                 {
-                    "feature1": "3.14",
-                    "feature2": "3.14"                    
+                    "feature1": 3.14,
+                    "feature2": 3.14
                 }
             ]
         }
