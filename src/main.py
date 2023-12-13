@@ -1,6 +1,6 @@
 import uvicorn
 
-def main():
+def main():        
     uvicorn.run(
         app="app.server:app",        
         workers=1,
