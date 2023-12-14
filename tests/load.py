@@ -29,5 +29,3 @@ class ModelPrediction(HttpUser):
                 )
         except Exception as e:
             print(e)
-
-# Exemplo de execução: locust -f nome-do-arquivo.py
