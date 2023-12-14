@@ -32,5 +32,5 @@ API em Python utilizando fast-api
 - Teste de carga
     ```
     locust tests/load.py
-    Acesso em: http://127.0.0.1:8000/docs
+    Acesso em: http://0.0.0.0:8089/
     ```
