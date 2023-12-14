@@ -1,0 +1,1 @@
+from api.schemas.schema import PredictSchema, ModelResponseSchema
