@@ -26,4 +26,4 @@ async def predict(obj: PredictSchema):
         return ModelResponseSchema(id=id, response=response, date=date)
     except Exception as error:
         logger.error(f"[error] error in model prediction | error: {error.__cause__}") 
-        return{"error": "Server error"}
+        return{"error": f"Server error {error.__cause__}"}
