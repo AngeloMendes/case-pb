@@ -20,7 +20,8 @@ API em Python utilizando fast-api
     ```
     pipenv install
     pipenv shell
-    python src/main.py
+    cd src
+    python main.py
     Acesso em: http://127.0.0.1:8000/docs
     ```
 
